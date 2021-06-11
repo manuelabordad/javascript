@@ -7,14 +7,9 @@ h1 {
 	font-family: "Suez One", serif;
 }
 .body {
-	background-image: url(imagenes/fondoh.jpg);
+	background-color: #f4a9a8;
 }
-.inicio_titulo {
-	text-align: center;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	font-family: "Suez One", serif;
-}
+
 .inicio_lista {
 	align-self: center;
 }
@@ -24,7 +19,7 @@ h1 {
 .galeria_img {
 	border-radius: 10%;
 	border: solid 15px;
-	color: #a4ebf3;
+	color: #ce97b0;
 	vertical-align: middle;
 }
 .galeria_font {
@@ -42,9 +37,9 @@ h1 {
 	text-align: center;
 }
 .button_tarifas {
-	background-color: #a4ebf3;
-	color: black;
-	border-color: black;
+	background-color: #ce97b0;
+	color: white;
+	border-color: white;
 }
 .footer {
 	text-align: center;
@@ -52,28 +47,29 @@ h1 {
 }
 .foot_redes {
 	align-self: center;
-	background-color: #aaaaaa;
+	background-color: #afb9c8;
 }
 .foot_contacto {
 	background-color: #f4f9f9;
 	padding-left: 15px;
 }
-.fondo {
-	background-image: url(imagenes/fondoh.jpg);
-}
+
 .info {
 	text-align: center;
 	margin-top: 30px;
 	font-family: "Suez One", serif;
-	background-color: #ccf2f4;
+	background-color: #fbc6a4;
 	margin: 100px;
 }
 .form_titulo {
 	font-family: "Suez One", serif;
 }
 .formulario {
-	background-color: #ccf2f4;
+	background-color: #fbc6a4;
 	padding-left: 50px;
+}
+.fondoT {
+	background-color: #f4a9a8;
 }
 .tienda {
 	margin-top: 100px;
@@ -86,22 +82,88 @@ h1 {
 }
 .tienda_img {
 	border-radius: 30%;
-	border: solid #a4ebf3;
+	border: solid #fbc6a4;
 }
 .tienda_img:hover {
 	opacity: 0.3;
 }
-.alimentos {
+.align {
 	text-align: center;
 }
 .button_alimento {
 	background-color: #fbc6a4;
-	list-style-type: none;
 	margin-right: 10px;
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
+.buttonT {
+	text-decoration: none;
+	color: white;
+}
+
 #perros {
 	background-color: white;
 	margin-bottom: 50px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+#gatos {
+	background-color: white;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.gap {
+	margin-bottom: 50px;
+}
+
+.textA {
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: -4px 3px 0 #f4a9a8, -14px 7px 0 #fff;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.alingSelf {
+	align-self: center;
+}
+.correas {
+	background-color: #ce97b0;
+	margin-bottom: 0;
+}
+.centrado {
+	text-align: center;
+}
+.button_tallas {
+	background-color: #fbc6a4;
+	color: black;
+	margin-right: 10px;
+}
+#small {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.img_correas {
+	border: solid 20px #ce97b0;
+}
+.b_correas {
+	background-color: #fbc6a4;
+	margin-bottom: 70px;
+}
+.agregar {
+	background-color: #ce97b0;
+}
+#medium {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#large {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.camas {
+	background-color: #fbc6a4;
 }
