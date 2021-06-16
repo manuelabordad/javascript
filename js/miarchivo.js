@@ -24,7 +24,11 @@ const alimentos = [18.0, 160.0, 39.0, 60.0, 79.0, 45.0];
 const menorprecio = alimentos.filter((elemento) => elemento < 70.0);
 console.log(menorprecio);
 
-// clas 6 desafio complementario//
+// clase 6 desafio complementario//
 let correas = ["roja", "azul", "amarilla", "rosada", "morada"];
 correas.sort();
 console.log(correas);
+
+// clase 8 DOM//
+document.getElementById("cantidadMascotas").value = "3";
+document.getElementById("cantidadNoches").value = "15";
