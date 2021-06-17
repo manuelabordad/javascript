@@ -32,3 +32,10 @@ console.log(correas);
 // clase 8 DOM//
 document.getElementById("cantidadMascotas").value = "3";
 document.getElementById("cantidadNoches").value = "15";
+
+// clase 9//
+const agregar = document.getElementById("buttonAgregar");
+
+agregar.onclick = () => {
+	console.log("Click");
+};
