@@ -1,59 +1,142 @@
-function Producto(nombre, peso, precio) {
-	this.nombre = nombre;
-	this.edad = peso;
-	this.calle = precio;
-	this.agregar = function () {
-		console.log("agregaste a tu carrito" + this.nombre);
-	};
-	this.eliminar = function () {
-		console.log("elininaste de tu carrito" + this.nombre);
-	};
+//TIENDA//
+const alimentoPerros = [
+	{
+		nombre: "Pedigree puppy 2kg",
+		precio: "COP 18.000",
+		img: "imagenes/pedigree.jpg",
+	},
+	{
+		nombre: "Taste of the wild 14lbs",
+		precio: "COP 160.000",
+		img: "imagenes/tasteofw.jpg",
+	},
+	{
+		nombre: "Pro plan sensitive skin 3kg",
+		precio: "COP 39.000",
+		img: "imagenes/proplan.jpg",
+	},
+	{
+		nombre: "Hills small paws 4.5lbs",
+		precio: "COP 60.000",
+		img: "imagenes/hills.png",
+	},
+	{
+		nombre: "Royal canin 3kg",
+		precio: "COP 79.000",
+		img: "imagenes/royal.jpg",
+	},
+	{
+		nombre: "Agility gold grandes adultos 3kg",
+		precio: "COP 45.000",
+		img: "imagenes/ag.jpg",
+	},
+];
+
+const alimentoGatos = [
+	{
+		nombre: "taste of the wild cats 5lbs",
+		precio: "COP 66.000",
+		img: "imagenes/tasteFelino.jpg",
+	},
+	{
+		nombre: "royal canin kitten chaton 4kg",
+		precio: "COP 140.000",
+		img: "imagenes/royalFelino.jpg",
+	},
+	{
+		nombre: "hills sensitive stomach 3lbs",
+		precio: "COP 72.000",
+		img: "imagenes/hillsFelino.jpg",
+	},
+	{
+		nombre: "ProPlan adult cat 3kg",
+		precio: "COP 97.000",
+		img: "imagenes/proplanFelino.jpg",
+	},
+	{
+		nombre: "agility gold 1.5 kg",
+		precio: "COP 32.000",
+		img: "imagenes/agilityFelino.png",
+	},
+	{
+		nombre: "purina cat chow complete 8kg",
+		precio: "COP 78.000",
+		img: "imagenes/purinaCat.jpg",
+	},
+];
+
+const correas = [
+	{ talla: "M", color: "", img: "imagenes/correaPequeña.jpg" },
+	{ talla: "S", color: "", img: "imagenes/correaMediana.jpg" },
+	{ talla: "L", color: "", img: "imagenes/correaGrande.jpg" },
+];
+
+const camas = [
+	{ nombre: "teepe", color: "", img: "imagenes/cama2.jpg" },
+	{ nombre: "colchon", color: "", img: "" },
+	{ nombre: "casita", color: "", img: "" },
+];
+//PERROS//
+let section = document.getElementById("alimentoPerros");
+console.log(section);
+
+for (let element of alimentoPerros) {
+	let div = document.createElement("div");
+	div.classname = "card";
+	div.style = "width: 18rem;";
+	div.innerHTML = `<div class="card" style="width: 18rem;">
+	<img class="card-img-top" src="${element.img}" alt="Card image cap">
+	<div class="card-body">
+	  <h5 class="card-title">${element.nombre}</h5>
+	  <button
+	  id="buttonAgregar"
+	  type="button"
+	  class="btn btn-secondary btn-sm" >
+	          Agregar al carrito
+  			</button>
+	</div>
+	`;
+	console.log(div);
+	section.appendChild(div);
 }
 
-const producto1 = new Producto("alimento hills ", "3kg", " COP 40.000");
-const producto2 = new Producto(
-	"alimento cachorros taste of the wild",
-	"5lbs",
-	"COP 65.000"
-);
-producto1.agregar();
-producto2.eliminar();
+//GATOS//
 
-//clase 6 objetos//
-const alimentos = [18.0, 160.0, 39.0, 60.0, 79.0, 45.0];
-const menorprecio = alimentos.filter((elemento) => elemento < 70.0);
-console.log(menorprecio);
+// let section = document.getElementById("alimentoGatos");
+// console.log(section);
 
-// clase 6 desafio complementario//
-let correas = ["roja", "azul", "amarilla", "rosada", "morada"];
-correas.sort();
-console.log(correas);
+// for (let element of alimentoGatos) {
+// 	let div = document.createElement("div");
+// 	div.classname = "card";
+// 	div.style = "width: 18rem;";
+// 	div.innerHTML = `<div class="card" style="width: 18rem;">
+// 		<img class="card-img-top" src="${element.img}" alt="Card image cap">
+// 		<div class="card-body">
+// 		<h5 class="card-title">${element.nombre}</h5>
+// 		<button
+//   id="buttonAgregar"
+//   type="button"
+//   class="btn btn-secondary btn-sm" >
+//           Agregar al carrito
+// 			</button>
+// 	</div>`;
+// 	console.log(div);
+// 	section.appendChild(div);
+// }
 
-// clase 9//
-const agregar = document.getElementById("buttonAgregar");
+//FORMULARIO//
+const formularioHotel = document.getElementById("formulario");
+formularioHotel.addEventListener("sumbmit", validarformulario);
+formularioHotel.addEventListener("reset", eliminarformulario);
+formularioHotel.addEventListener("habitacion", agregarhabitacion);
 
-agregar.onclick = () => {
-	console.log("Click");
-};
+function validarformulario() {
+	console.log("enviado");
+}
 
-// clase 9 complementario //
-const alimentoGatos = [
-	"royalCanin",
-	"tasteofWild",
-	"hills",
-	"proPlan",
-	"purinaCat",
-];
-for (let i = 0; i < array.length; i++) {
-	let contenedor = document.getElementById("card");
-	let divadd = document.createElement("div");
-	divadd.innerHTML = `<div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">${array[i]}</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-        content.</p>
-    </div>
-    </div>`;
-	contenedor.appendChild(divadd);
+function eliminarformulario() {
+	localStorage.clear();
+}
+function agregarhabitacion() {
+	localStorage.setitem("habitacion");
 }
