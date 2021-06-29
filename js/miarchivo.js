@@ -77,52 +77,18 @@ const camas = [
 	{ nombre: "casita", color: "", img: "" },
 ];
 //PERROS//
-let section = document.getElementById("alimentoPerros");
-console.log(section);
+for (let element of alimentoPerros) {$("#alimentoP").append(`<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="..." alt="Card image cap">
+<div class="card-body">
+  <h5 class="card-title">Card title</h5>
+  <a href="#" class="btn btn-primary">Go somewhere</a>
+</div>
+</div>`)
 
-for (let element of alimentoPerros) {
-	let div = document.createElement("div");
-	div.classname = "card";
-	div.style = "width: 18rem;";
-	div.innerHTML = `<div class="card" style="width: 18rem;">
-	<img class="card-img-top" src="${element.img}" alt="Card image cap">
-	<div class="card-body">
-	  <h5 class="card-title">${element.nombre}</h5>
-	  <button
-	  id="buttonAgregar"
-	  type="button"
-	  class="btn btn-secondary btn-sm" >
-	          Agregar al carrito
-  			</button>
-	</div>
-	`;
-	console.log(div);
-	section.appendChild(div);
-}
 
 //GATOS//
 
-// let section = document.getElementById("alimentoGatos");
-// console.log(section);
 
-// for (let element of alimentoGatos) {
-// 	let div = document.createElement("div");
-// 	div.classname = "card";
-// 	div.style = "width: 18rem;";
-// 	div.innerHTML = `<div class="card" style="width: 18rem;">
-// 		<img class="card-img-top" src="${element.img}" alt="Card image cap">
-// 		<div class="card-body">
-// 		<h5 class="card-title">${element.nombre}</h5>
-// 		<button
-//   id="buttonAgregar"
-//   type="button"
-//   class="btn btn-secondary btn-sm" >
-//           Agregar al carrito
-// 			</button>
-// 	</div>`;
-// 	console.log(div);
-// 	section.appendChild(div);
-// }
 
 //FORMULARIO//
 const formularioHotel = document.getElementById("formulario");
