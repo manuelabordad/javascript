@@ -90,6 +90,7 @@ h1 {
 .align {
 	text-align: center;
 }
+
 .button_alimento {
 	background-color: #fbc6a4;
 	margin-right: 10px;
@@ -101,20 +102,19 @@ h1 {
 	color: white;
 }
 
-#perros {
-	background-color: white;
-	margin-bottom: 50px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
-#gatos {
-	background-color: white;
-	margin-bottom: 50px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
 .gap {
 	margin-bottom: 50px;
+}
+#alimentoP {
+	background-color: #fbc6a4;
+	text-align: center;
+}
+#alimentoG {
+	background-color: #fbc6a4;
+	text-align: center;
+}
+.cardsH {
+	display: inline-block;
 }
 
 .textA {

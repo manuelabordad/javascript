@@ -77,18 +77,34 @@ const camas = [
 	{ nombre: "casita", color: "", img: "" },
 ];
 //PERROS//
-for (let element of alimentoPerros) {$("#alimentoP").append(`<div class="card" style="width: 18rem;">
-<img class="card-img-top" src="..." alt="Card image cap">
+for (let element of alimentoPerros)
+	$("#alimentoP").append(`<div class="card cardsH" style="width: 18rem;">
+<img class="card-img-top" height="286px" src="${element.img}" alt="Card image cap">
 <div class="card-body">
-  <h5 class="card-title">Card title</h5>
-  <a href="#" class="btn btn-primary">Go somewhere</a>
+  <h5 class="card-title">${element.nombre}</h5>
+  <button id="buttonAgregar" type="button" class="btn btn-secondary ">
+  Agregar al carrito
+</button>
 </div>
-</div>`)
-
+</div>`);
 
 //GATOS//
+for (let element of alimentoGatos)
+	$("#alimentoG").append(`<div class="card cardsH" style="width: 18rem;">
+<img class="card-img-top"height="286px" src="${element.img}" alt="Card image cap">
+<div class="card-body">
+  <h5 class="card-title">${element.nombre}</h5>
+  <button id="buttonAgregar" type="button" class="btn btn-secondary ">
+  Agregar al carrito
+</button>
+</div>
+</div>`);
 
-
+// BUTTON CARRITO //
+let buttonCarrito = $("#buttonAgregar");
+buttonCarrito.onclick = () => {
+	console.log("producto agregado");
+};
 
 //FORMULARIO//
 const formularioHotel = document.getElementById("formulario");
