@@ -107,14 +107,8 @@ $("#buttonAgregar").click(function () {
 
 //FORMULARIO//
 $("#btn_enviado").click(function () {
-	console.log("enviado");
+	console.log("tu precio es de ");
 });
 $("btn_borrar").click(function () {
 	localStorage.clear();
-});
-$("cantidad_mascotas").click(function () {
-	localStorage.setItem;
-});
-$("cantidad_noches").click(function () {
-	localStorage.setItem;
 });
