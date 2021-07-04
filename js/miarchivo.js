@@ -101,24 +101,20 @@ for (let element of alimentoGatos)
 </div>`);
 
 // BUTTON CARRITO //
-let buttonCarrito = $("#buttonAgregar");
-buttonCarrito.onclick = () => {
+$("#buttonAgregar").click(function () {
 	console.log("producto agregado");
-};
+});
 
 //FORMULARIO//
-const formularioHotel = document.getElementById("formulario");
-formularioHotel.addEventListener("sumbmit", validarformulario);
-formularioHotel.addEventListener("reset", eliminarformulario);
-formularioHotel.addEventListener("habitacion", agregarhabitacion);
-
-function validarformulario() {
+$("#btn_enviado").click(function () {
 	console.log("enviado");
-}
-
-function eliminarformulario() {
+});
+$("btn_borrar").click(function () {
 	localStorage.clear();
-}
-function agregarhabitacion() {
-	localStorage.setitem("habitacion");
-}
+});
+$("cantidad_mascotas").click(function () {
+	localStorage.setItem;
+});
+$("cantidad_noches").click(function () {
+	localStorage.setItem;
+});
