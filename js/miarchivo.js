@@ -66,17 +66,43 @@ const alimentoGatos = [
 ];
 
 const correas = [
-	{ talla: "M", color: "", img: "imagenes/correaPequeña.jpg" },
-	{ talla: "S", color: "", img: "imagenes/correaMediana.jpg" },
-	{ talla: "L", color: "", img: "imagenes/correaGrande.jpg" },
+	{ talla: "Small", color: "", img: "imagenes/correaPequeña.jpg" },
+	{ talla: "Medium", color: "", img: "imagenes/correaMediana.jpg" },
+	{ talla: "Large", color: "", img: "imagenes/correaGrande.jpg" },
 ];
 
-const camas = [
-	{ nombre: "teepe", color: "", img: "imagenes/cama2.jpg" },
-	{ nombre: "colchon", color: "", img: "" },
-	{ nombre: "casita", color: "", img: "" },
+const camasP = [
+	{
+		nombre: "Colchon  COP 65.000",
+		color: "gris claro",
+		img: "imagenes/cama1.jpg",
+		descripcion:
+			"Cama estilo colchón, muy comoda y abrigada perfecta para climas frios, con cierre para que sea facil de lavar ",
+	},
+	{
+		nombre: "Teepe  COP 90.000",
+		color: "beige",
+		img: "imagenes/cama2.jpg",
+		descripcion:
+			"Cama estilo teepe, con un diseño hermoso y decorativo.contiene un colchon interno muy comodo y fresco",
+	},
 ];
-//PERROS//
+const camasG = [
+	{
+		nombre: "Cueva COP 50.000",
+		color: "gris oscuro",
+		img: "imagenes/cama3.jpg",
+		descripcion:
+			"Cama estilo cueva la preferida para tus gatos,con cierre para que sea facil de lavar",
+	},
+	{
+		nombre: "Gimnasio con hamaca COP 120.000 ",
+		color: "gris y beige ",
+		img: "imagenes/cama4.jpg",
+		descripcion: "Divertido gimnasio de gatos con hamaca y cueva incluida",
+	},
+];
+//PERROS ALIMENTOS //
 for (let element of alimentoPerros)
 	$("#alimentoP").append(`<div class="card cardsH" style="width: 18rem;">
 <img class="card-img-top" height="286px" src="${element.img}" alt="Card image cap">
@@ -88,12 +114,48 @@ for (let element of alimentoPerros)
 </div>
 </div>`);
 
-//GATOS//
+//GATOS ALIMENTOS//
 for (let element of alimentoGatos)
 	$("#alimentoG").append(`<div class="card cardsH" style="width: 18rem;">
 <img class="card-img-top"height="286px" src="${element.img}" alt="Card image cap">
 <div class="card-body">
   <h5 class="card-title">${element.nombre}</h5>
+  <button id="buttonAgregar" type="button" class="btn btn-secondary ">
+  Agregar al carrito
+</button>
+</div>
+</div>`);
+//CORREAS PERROS //
+for (let element of correas)
+	$("#correasPerros").append(`<div class="card cardsH" style="width: 18rem;">
+<img class="card-img-top"height="286px" src="${element.img}" alt="Card image cap">
+<div class="card-body">
+  <h5 class="card-title">${element.talla}</h5>
+  <button id="buttonAgregar" type="button" class="btn btn-secondary ">
+  Agregar al carrito
+</button>
+</div>
+</div>`);
+
+//CAMAS PERROS//
+for (let element of camasP)
+	$("#camasPerros").append(`<div class="card cardsH" style="width: 18rem;">
+<img class="card-img-top"height="286px" src="${element.img}" alt="Card image cap">
+<div class="card-body">
+  <h5 class="card-title">${element.nombre}</h5>
+  <p> ${element.descripcion}</p>
+  <button id="buttonAgregar" type="button" class="btn btn-secondary ">
+  Agregar al carrito
+</button>
+</div>
+</div>`);
+//CAMAS GATOS //
+for (let element of camasG)
+	$("#camasGatos").append(`<div class="card cardsH" style="width: 18rem;">
+<img class="card-img-top"height="286px" src="${element.img}" alt="Card image cap">
+<div class="card-body">
+  <h5 class="card-title">${element.nombre}</h5>
+  <p> ${element.descripcion}</p>
   <button id="buttonAgregar" type="button" class="btn btn-secondary ">
   Agregar al carrito
 </button>
@@ -112,3 +174,6 @@ $("#btn_enviado").click(function () {
 $("btn_borrar").click(function () {
 	localStorage.clear();
 });
+
+//DESAFIO #13//
+$("#nombreHotel").slideup("slow").fadein("fast");
