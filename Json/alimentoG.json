@@ -1,0 +1,32 @@
+[
+	{
+		"nombre": "taste of the wild cats 5lbs",
+		"precio": "COP 66.000",
+		"img": "imagenes/tasteFelino.jpg"
+	},
+	{
+		"nombre": "royal canin kitten chaton 4kg",
+		"precio": "COP 140.000",
+		"img": "imagenes/royalFelino.jpg"
+	},
+	{
+		"nombre": "hills sensitive stomach 3lbs",
+		"precio": "COP 72.000",
+		"img": "imagenes/hillsFelino.jpg"
+	},
+	{
+		"nombre": "ProPlan adult cat 3kg",
+		"precio": "COP 97.000",
+		"img": "imagenes/proplanFelino.jpg"
+	},
+	{
+		"nombre": "agility gold 1.5 kg",
+		"precio": "COP 32.000",
+		"img": "imagenes/agilityFelino.png"
+	},
+	{
+		"nombre": "purina cat chow complete 8kg",
+		"precio": "COP 78.000",
+		"img": "imagenes/purinaCat.jpg"
+	}
+]

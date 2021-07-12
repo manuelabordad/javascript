@@ -1,0 +1,32 @@
+[
+	{
+		"nombre": "Pedigree puppy 2kg",
+		"precio": "COP 18.000",
+		"img": "imagenes/pedigree.jpg"
+	},
+	{
+		"nombre": "Taste of the wild 14lbs",
+		"precio": "COP 160.000",
+		"img": "imagenes/tasteofw.jpg"
+	},
+	{
+		"nombre": "Pro plan sensitive skin 3kg",
+		"precio": "COP 39.000",
+		"img": "imagenes/proplan.jpg"
+	},
+	{
+		"nombre": "Hills small paws 4.5lbs",
+		"precio": "COP 60.000",
+		"img": "imagenes/hills.png"
+	},
+	{
+		"nombre": "Royal canin 3kg",
+		"precio": "COP 79.000",
+		"img": "imagenes/royal.jpg"
+	},
+	{
+		"nombre": "Agility gold grandes adultos 3kg",
+		"precio": "COP 45.000",
+		"img": "imagenes/ag.jpg"
+	}
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"nombre": "Cueva COP 50.000",
+		"color": "gris oscuro",
+		"img": "imagenes/cama3.jpg",
+		"descripcion": "Cama estilo cueva la preferida para tus gatos,con cierre para que sea facil de lavar"
+	},
+	{
+		"nombre": "Gimnasio con hamaca COP 120.000 ",
+		"color": "gris y beige ",
+		"img": "imagenes/cama4.jpg",
+		"descripcion": "Divertido gimnasio de gatos con hamaca y cueva incluida"
+	}
+]

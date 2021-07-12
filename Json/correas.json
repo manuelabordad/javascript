@@ -1,0 +1,5 @@
+[
+	{ "talla": "Small", "color": "", "img": "imagenes/correaPequeña.jpg" },
+	{ "talla": "Medium", "color": "", "img": "imagenes/correaMediana.jpg" },
+	{ "talla": "Large", "color": "", "img": "imagenes/correaGrande.jpg" }
+]
