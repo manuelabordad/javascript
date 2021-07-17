@@ -102,14 +102,10 @@
 // 		descripcion: "Divertido gimnasio de gatos con hamaca y cueva incluida",
 // 	},
 // ];
-const ALIMENTOP = "./Json/alimentoP.json";
-const alimentoG = "./Json/alimentoG.json";
-const correas = "./Json/correas.json";
-const camasP = "./Json/camasP.json";
-const camasG = "./Json/camasG.json";
+const jsonLocal = "./Json/jsonLocal.js";
 
 //PERROS ALIMENTOS //
-$get(ALIMENTOP).then((productos, estado) => {
+$.get(jsonLocal).then((productos, estado) => {
 	for (const element of productos) {
 		$("#alimentoP").append(`<div class="card cardsH" style="width: 18rem;">
 		<img class="card-img-top" height="286px" src="${element.img}" alt="Card image cap">
