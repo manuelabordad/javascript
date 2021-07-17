@@ -107,7 +107,7 @@ let Alimentos = jsonLocal[0];
 console.log(Alimentos);
 
 //PERROS ALIMENTOS //
-$.get(jsonLocal).then((productos, estado) => {
+$.get(Alimentos).then((productos, estado) => {
 	console.log(productos);
 	for (const element of productos) {
 		$("#alimentoP").append(`<div class="card cardsH" style="width: 18rem;">
