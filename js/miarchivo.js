@@ -102,15 +102,19 @@
 // 		descripcion: "Divertido gimnasio de gatos con hamaca y cueva incluida",
 // 	},
 // ];
-const jsonLocal = "./Json/jsonLocal.js";
+const jsonLocal = "./Json/jsonLocal.json";
+let Alimentos = jsonLocal[0];
+console.log(Alimentos);
 
 //PERROS ALIMENTOS //
 $.get(jsonLocal).then((productos, estado) => {
+	console.log(productos);
 	for (const element of productos) {
 		$("#alimentoP").append(`<div class="card cardsH" style="width: 18rem;">
 		<img class="card-img-top" height="286px" src="${element.img}" alt="Card image cap">
 		<div class="card-body">
 		  <h5 class="card-title">${element.nombre}</h5>
+		  <p> precio ${element.precio} </p>
 		  <button id="buttonAgregar" type="button" class="btn btn-secondary ">
 		  Agregar al carrito
 		</button>

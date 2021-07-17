@@ -1,111 +1,107 @@
 {
-    "alimento":
-    [
-        {
-            "nombre": "Pedigree puppy 2kg",
-            "precio": "COP 18.000",
-            "img": "imagenes/pedigree.jpg"
-        },
-​
-        {
-            "nombre": "Taste of the wild 14lbs",
-            "precio": "COP 160.000",
-            "img": "imagenes/tasteofw.jpg"
-        },
-        {
-            "nombre": "Pro plan sensitive skin 3kg",
-            "precio": "COP 39.000",
-            "img": "imagenes/proplan.jpg"
-        },
-        {
-            "nombre": "Hills small paws 4.5lbs",
-            "precio": "COP 60.000",
-            "img": "imagenes/hills.png"
-        },
-        {
-            "nombre": "Royal canin 3kg",
-            "precio": "COP 79.000",
-            "img": "imagenes/royal.jpg"
-        },
-        {
-            "nombre": "Agility gold grandes adultos 3kg",
-            "precio": "COP 45.000",
-            "img": "imagenes/ag.jpg"
-        },
-        {
-            "nombre": "taste of the wild cats 5lbs",
-            "precio": "COP 66.000",
-            "img": "imagenes/tasteFelino.jpg"
-        },
-        {
-            "nombre": "royal canin kitten chaton 4kg",
-            "precio": "COP 140.000",
-            "img": "imagenes/royalFelino.jpg"
-        },
-        {
-            "nombre": "hills sensitive stomach 3lbs",
-            "precio": "COP 72.000",
-            "img": "imagenes/hillsFelino.jpg"
-        },
-        {
-            "nombre": "ProPlan adult cat 3kg",
-            "precio": "COP 97.000",
-            "img": "imagenes/proplanFelino.jpg"
-        },
-        {
-            "nombre": "agility gold 1.5 kg",
-            "precio": "COP 32.000",
-            "img": "imagenes/agilityFelino.png"
-        },
-        {
-            "nombre": "purina cat chow complete 8kg",
-            "precio": "COP 78.000",
-            "img": "imagenes/purinaCat.jpg"
-        }
-    ],
-    "camas":
-    [
-        {
-            "nombre": "Colchon  COP 65.000",
-            "color": "gris claro",
-            "img": "imagenes/cama1.jpg",
-            "descripcion": "Cama estilo colchón, muy comoda y abrigada perfecta para climas frios, con cierre para que sea facil de lavar "
-        },
-        {
-            "nombre": "Teepe  COP 90.000",
-            "color": "beige",
-            "img": "imagenes/cama2.jpg",
-            "descripcion": "Cama estilo teepe, con un diseño hermoso y decorativo.contiene un colchon interno muy comodo y fresco"
-        },
-        {
-            "nombre": "Cueva COP 50.000",
-            "color": "gris oscuro",
-            "img": "imagenes/cama3.jpg",
-            "descripcion": "Cama estilo cueva la preferida para tus gatos,con cierre para que sea facil de lavar"
-        },
-        {
-            "nombre": "Gimnasio con hamaca COP 120.000 ",
-            "color": "gris y beige ",
-            "img": "imagenes/cama4.jpg",
-            "descripcion": "Divertido gimnasio de gatos con hamaca y cueva incluida"
-        }
-    ],
-    "correa":
-    [
-        {
-            "talla": "Small",
-            "color": "",
-            "img": "imagenes/correaPequeña.jpg"
-        },
-        {
-            "talla": "Medium",
-            "color": "",
-            "img": "imagenes/correaMediana.jpg"
-        },
-        {
-            "talla": "Large",
-            "color": "",
-            "img": "imagenes/correaGrande.jpg"
-        }
-    ]
+	"alimento": [
+		{
+			"nombre": "Pedigree puppy 2kg",
+			"precio": "COP 18.000",
+			"img": "imagenes/pedigree.jpg"
+		},
+		{
+			"nombre": "Taste of the wild 14lbs",
+			"precio": "COP 160.000",
+			"img": "imagenes/tasteofw.jpg"
+		},
+		{
+			"nombre": "Pro plan sensitive skin 3kg",
+			"precio": "COP 39.000",
+			"img": "imagenes/proplan.jpg"
+		},
+		{
+			"nombre": "Hills small paws 4.5lbs",
+			"precio": "COP 60.000",
+			"img": "imagenes/hills.png"
+		},
+		{
+			"nombre": "Royal canin 3kg",
+			"precio": "COP 79.000",
+			"img": "imagenes/royal.jpg"
+		},
+		{
+			"nombre": "Agility gold grandes adultos 3kg",
+			"precio": "COP 45.000",
+			"img": "imagenes/ag.jpg"
+		},
+		{
+			"nombre": "taste of the wild cats 5lbs",
+			"precio": "COP 66.000",
+			"img": "imagenes/tasteFelino.jpg"
+		},
+		{
+			"nombre": "royal canin kitten chaton 4kg",
+			"precio": "COP 140.000",
+			"img": "imagenes/royalFelino.jpg"
+		},
+		{
+			"nombre": "hills sensitive stomach 3lbs",
+			"precio": "COP 72.000",
+			"img": "imagenes/hillsFelino.jpg"
+		},
+		{
+			"nombre": "ProPlan adult cat 3kg",
+			"precio": "COP 97.000",
+			"img": "imagenes/proplanFelino.jpg"
+		},
+		{
+			"nombre": "agility gold 1.5 kg",
+			"precio": "COP 32.000",
+			"img": "imagenes/agilityFelino.png"
+		},
+		{
+			"nombre": "purina cat chow complete 8kg",
+			"precio": "COP 78.000",
+			"img": "imagenes/purinaCat.jpg"
+		}
+	],
+	"camas": [
+		{
+			"nombre": "Colchon  COP 65.000",
+			"color": "gris claro",
+			"img": "imagenes/cama1.jpg",
+			"descripcion": "Cama estilo colchón, muy comoda y abrigada perfecta para climas frios, con cierre para que sea facil de lavar "
+		},
+		{
+			"nombre": "Teepe  COP 90.000",
+			"color": "beige",
+			"img": "imagenes/cama2.jpg",
+			"descripcion": "Cama estilo teepe, con un diseño hermoso y decorativo.contiene un colchon interno muy comodo y fresco"
+		},
+		{
+			"nombre": "Cueva COP 50.000",
+			"color": "gris oscuro",
+			"img": "imagenes/cama3.jpg",
+			"descripcion": "Cama estilo cueva la preferida para tus gatos,con cierre para que sea facil de lavar"
+		},
+		{
+			"nombre": "Gimnasio con hamaca COP 120.000 ",
+			"color": "gris y beige ",
+			"img": "imagenes/cama4.jpg",
+			"descripcion": "Divertido gimnasio de gatos con hamaca y cueva incluida"
+		}
+	],
+	"correa": [
+		{
+			"talla": "Small",
+			"color": "",
+			"img": "imagenes/correaPequeña.jpg"
+		},
+		{
+			"talla": "Medium",
+			"color": "",
+			"img": "imagenes/correaMediana.jpg"
+		},
+		{
+			"talla": "Large",
+			"color": "",
+			"img": "imagenes/correaGrande.jpg"
+		}
+	]
 }
