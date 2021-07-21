@@ -41,11 +41,12 @@
 						>
 						<a class="nav-link" href="hotel.html">Hotel</a>
 						<a class="nav-link" href="tienda.html">Tienda</a>
-						<a class="nav-link" href="#">Contacto</a>
+						<a class="nav-link" href="#contacto">Contacto</a>
 					</div>
 				</div>
 			</div>
 		</nav>
+
 		<div class="conteiner info">
 			<div class="row">
 				<div class="col">
@@ -63,39 +64,14 @@
 				</div>
 			</div>
 		</div>
-		<div id="formulario" class="conteiner formulario">
-			<div class="row">
-				<div class="col">
-					<h1 class="form_titulo">Calcula tu tarifa total por noche</h1>
-					<form action="">
-						<p>
-							Cuantas mascotas son:
-							<input
-								id="cantidad_mascotas"
-								type="text"
-								name="cantidad.mascotas"
-							/>
-						</p>
-						<p>
-							Cuantas noches:
-							<input id="cantidad_noches" type="text" name="cantidad.noches" />
-						</p>
-						<p>
-							habitacion :
-							<select name="habitacion" id="">
-								<option value="1">habitación compartida</option>
-								<option value="2">habitacion privada</option>
-							</select>
-						</p>
-						<input id="btn_enviado" type="submit" value="Enviar" />
-						<input id="btn_borrar" type="reset" value="Borrar" />
-					</form>
-				</div>
-				<div class="col">
-					<img src="imagenes/gato.jpg" alt="" width="300px" height="300px" />
-				</div>
-			</div>
+		<h1 class="form_titulo">Calcula tu tarifa total por noche</h1>
+		<div class="tarifas">
+			<button type="button" class="btn btn-primary btn-lg button_tarifas">
+				<a href="hotel.html" class="buttonT" id="tarifas"> Consultar tarifas</a>
+			</button>
+			<img src="imagenes/tarifas.jpg" alt="" width="200px" height="200px" />
 		</div>
+
 		<div class="footer">
 			<div class="conteiner foot_redes">
 				<div class="row">
@@ -134,7 +110,7 @@
 							amigo en un excelente lugar
 						</p>
 					</div>
-					<div class="col">
+					<div class="col" id="contacto">
 						<p>
 							<strong> Contacto :</strong><br />
 							Medellin, Antioquia <br />

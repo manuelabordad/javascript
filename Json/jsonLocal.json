@@ -1,5 +1,5 @@
 {
-	"alimento": [
+	"alimentoP": [
 		{
 			"nombre": "Pedigree puppy 2kg",
 			"precio": "COP 18.000",
@@ -29,7 +29,10 @@
 			"nombre": "Agility gold grandes adultos 3kg",
 			"precio": "COP 45.000",
 			"img": "imagenes/ag.jpg"
-		},
+		}
+	],
+
+	"alimentoG": [
 		{
 			"nombre": "taste of the wild cats 5lbs",
 			"precio": "COP 66.000",
@@ -61,7 +64,7 @@
 			"img": "imagenes/purinaCat.jpg"
 		}
 	],
-	"camas": [
+	"camasP": [
 		{
 			"nombre": "Colchon  COP 65.000",
 			"color": "gris claro",
@@ -73,7 +76,9 @@
 			"color": "beige",
 			"img": "imagenes/cama2.jpg",
 			"descripcion": "Cama estilo teepe, con un diseño hermoso y decorativo.contiene un colchon interno muy comodo y fresco"
-		},
+		}
+	],
+	"camasG": [
 		{
 			"nombre": "Cueva COP 50.000",
 			"color": "gris oscuro",
@@ -91,17 +96,20 @@
 		{
 			"talla": "Small",
 			"color": "",
-			"img": "imagenes/correaPequeña.jpg"
+			"img": "imagenes/correaPequeña.jpg",
+			"precio": "COP 30.000"
 		},
 		{
 			"talla": "Medium",
 			"color": "",
-			"img": "imagenes/correaMediana.jpg"
+			"img": "imagenes/correaMediana.jpg",
+			"precio": "COP 40.000"
 		},
 		{
 			"talla": "Large",
 			"color": "",
-			"img": "imagenes/correaGrande.jpg"
+			"img": "imagenes/correaGrande.jpg",
+			"precio": "COP 50.000"
 		}
 	]
 }
