@@ -95,5 +95,5 @@ $("#tarifas").click(function wsp() {
 });
 // ANIMACION TITULO //
 $(document).ready(() => {
-	$("#nombreHotel").fadeIn("slow");
+	$("#nombreHotel").fadeIn("3000");
 });

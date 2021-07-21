@@ -105,16 +105,14 @@ h1 {
 .gap {
 	margin-bottom: 50px;
 }
-#alimentoP {
+.sectionAlign {
 	background-color: #fbc6a4;
 	text-align: center;
 }
-#alimentoG {
-	background-color: #fbc6a4;
-	text-align: center;
-}
+
 .cardsH {
 	display: inline-block;
+	margin-right: 15px;
 }
 
 .textA {
